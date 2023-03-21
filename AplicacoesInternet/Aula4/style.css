@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: #121212;
+    color: #eee;
+    padding: 0 15%;
+    font-family: courier,arial,helvetica;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    background-color: #1f1f1f;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    margin: 0 10px;
+    color: #fff
+}
+
+a:hover {
+    background-color: #071b33;
+}
+
+.imagem {
+    width: 100%;
+    text-align: center;
+}
