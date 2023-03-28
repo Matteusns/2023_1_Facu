@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #eee;
+    padding: 0 15%;
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: #071b33;
+}
+
+tr>th {
+    border: none;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
